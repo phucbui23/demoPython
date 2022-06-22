@@ -1,4 +1,4 @@
-example = {
+example : dict = {
     "brand": "ford",
     "model": "mustang",
     "year": 1964,
@@ -7,8 +7,9 @@ example = {
 }
 
 print("Demo access item")
-print(example["colors"])
-print(example.get("year"))
+# print(example["abc"])
+print(example.get("abc",1))
+example.get
 print(example.keys())
 print(example.values())
 print(example.items())

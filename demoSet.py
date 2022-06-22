@@ -35,6 +35,8 @@ z.symmetric_difference_update(k)
 print(z)
 
 
+a = {1,1}
+print(a)
 
 
 
