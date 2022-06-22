@@ -24,5 +24,4 @@ dateWithDash = Dates.toDashDate(dateFromDB)
 
 if(date.getDate() == dateWithDash):
     print("Equal")
-else:
-    print("Unequal")
+print("Unequal")
