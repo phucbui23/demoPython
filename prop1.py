@@ -1,4 +1,3 @@
-# Using @property decorator
 class Celsius:
     def __init__(self, temperature=0):
         self._temperature = temperature
