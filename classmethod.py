@@ -1,4 +1,4 @@
-##### first way
+# ##### first way
 class Student:
   marks = 0
 
